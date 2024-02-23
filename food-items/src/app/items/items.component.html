@@ -1,0 +1,18 @@
+<div class="ITEMS">
+  <div id="img">  <img src={{img}} alt="Items"></div>
+    <h2>{{title}}</h2>
+   
+    <div class="counter">
+        
+       <h2>Count: <span class="count">{{count}}</span></h2>
+       <div>
+       <button (click)="incr()" [disabled]="isDisabled">+</button>
+       <button (click)="decr()">-</button>
+       <button (click)="reset()">reset</button>
+       
+       </div>
+       
+       </div>
+</div>
+
+
